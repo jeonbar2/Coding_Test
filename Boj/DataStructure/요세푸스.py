@@ -1,12 +1,25 @@
-lst = [1,2,3,4,5,6,7]
-i=1
-while (len(lst)!=0):
-    if (i >=7):
-        i = i % 6
-    if(i%3==0&i<=6):
-       # print(lst[i-1])
-        print(lst.pop(i-1))
-        #print(i)
+n, k = map(int, input().split())
+lst=[]
+answer=[]
+for i in range(1,n+1):
+    lst.append(i)
 
-
-    i+=1
+# a=k-1
+# while(len(lst)!=0):
+#     # print(a)
+#     answer.append(str(lst.pop(a)))
+#     if(a+k>len(lst)):
+#         a+=k-1
+#         a-=len(lst)
+#     else:
+#         a+=k-1
+#     if(len(lst)<=a):
+#         a-=len(lst)
+#
+num=0
+for i in range(n):
+    num+=k-1
+    if num>=len(lst):
+        num=num%len(lst)
+    answer.append(str(lst.pop(num)))
+print("<", ", ".join(answer), ">", sep='')
