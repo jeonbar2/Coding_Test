@@ -29,3 +29,9 @@ for i in range(1,len(couple)+1):
 
 for i in sorted(list(answer)):
     print(i)
+
+# from itertools import combinations, permutations
+#
+# nums = [1,2,3,4]
+# combi = list(combinations(nums, 2))
+# [(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)] 출력
