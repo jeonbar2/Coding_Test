@@ -64,3 +64,11 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+1. length
+ - arrays(int[], double[], String[])
+ - length는 배열의 길이를 알고자 할때 사용된다.
+ 
+2. length()
+ - String related Object(String, StringBuilder etc)
+ - length()는 문자열의 길이를 알고자 할때 사용된다.
