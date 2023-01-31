@@ -90,3 +90,5 @@ queue2 = [4, 6, 5, 1]
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> ---
+> while 문 안에 sum() 함수를 넣어서 했었는데 반복문안에 sum함수가 계속 호출되서 시간초과가 떴다 -> sum 함수는 처음에만 호출 해주고 큐에서 append할떄 pop 할때 마다 숫자를 더해주고 뺴주는 형태로 바꾸었더니 시간초과문제 
