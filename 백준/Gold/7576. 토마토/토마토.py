@@ -33,13 +33,7 @@ for i in tomato:
     for j in i:
         if j == 0:
             answer = -1
-            break
-    answer = max(answer, max(i))
-
-for i in tomato:
-    for j in i:
-        if j == 0:
-            print(-1)
+            print(answer)
             exit(0)
     answer = max(answer, max(i))
 print(answer - 1)
