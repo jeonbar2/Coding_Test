@@ -8,6 +8,3 @@ from fish_info b,
 where b.fish_type = a.fish_type
 group by b.fish_type
 order by fish_type;
-
-
-
