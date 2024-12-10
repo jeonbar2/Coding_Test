@@ -3,4 +3,3 @@ from fish_info a, fish_name_info b
 where a.fish_type = b.fish_type
 group by fish_name
 order by fish_count desc
-
